@@ -4,6 +4,7 @@
   "description": "A simple webserver.",
   "main": "server.js",
   "scripts": {
+    "server": "nodemon --watch server -e js,json --delay 1000ms test-server/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "R.T.H Chin",
